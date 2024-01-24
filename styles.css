@@ -2,8 +2,21 @@
 
 body {
     font-family: 'Hero New', sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;    
 }
+
+.info-container {
+
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    text-align: center;
 }
