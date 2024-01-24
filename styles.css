@@ -1,0 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+
+body {
+    font-family: 'Hero New', sans-serif;
+}
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
