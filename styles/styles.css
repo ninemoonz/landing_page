@@ -5,11 +5,11 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;    
+    display: flex;
+    flex-direction: column;
+
 }
 
-.info-container {
-
-}
 
 .quote-container {
     background-color: #E5E7EB;
