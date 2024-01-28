@@ -17,11 +17,16 @@
     padding: 0;
 }
 
-.main-left-container,
-.main-right-container {
+.main-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     flex: 1;
-    margin: 0;
-    padding: 0;
+}
+.main-right-container {
+    display: flex;
+    flex: 1;
 }
 
 .main-text {
@@ -37,7 +42,6 @@
     border-radius: 10px;
     border: none;
     font-weight: 700;
-
 }
 
 .main-right-container {
