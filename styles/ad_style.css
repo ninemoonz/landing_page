@@ -1,0 +1,33 @@
+.ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 50px 10%;
+
+}
+
+.ad-box {
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.ad-title {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.ad-button {
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    font-weight: 700;
+    padding: 3px 40px;
+}
