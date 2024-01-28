@@ -18,12 +18,25 @@
 .card-container {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    width: 150px;    
 }
 
 .info-card {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    color: #1F2937;
 }
