@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: stretch;
     flex:1;
-    gap: 20px;
+    gap: 50px;
 }
 
 .main-title {
@@ -18,7 +18,7 @@
 
 .main-left-container,
 .main-right-container {
-    flex-basis: 500px;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
